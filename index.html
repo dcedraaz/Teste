@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação com Jeff Junior</title>
+</head>
+<body>
+    <h1>Fala meu mano</h1>
+    <p>Qual seu nome?</p>
+    <input type="text" id="resposta" placeholder="Digite sua resposta">
+    <button onclick="mostrarMensagem()">Enviar</button>
+    <p id="mensagem"></p>
+
+    <script>
+        function mostrarMensagem() {
+            const resposta = document.getElementById('resposta').value;
+            document.getElementById('mensagem').innerText = "Fala meu mano Jeff Junior faixa branca";
+        }
+    </script>
+</body>
+</html>
